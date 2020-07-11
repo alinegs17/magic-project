@@ -24,6 +24,20 @@
 {
   color: #216e21!important;
 }
+.navbar
+{
+  background: #fff;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 600;
+  font-size: 16px;
+}
 /*div {
   border: 4px solid #f4d942;
   background-image: url(http://wallpaper-gallery.net/images/vector-image/vector-image-12.jpg);
