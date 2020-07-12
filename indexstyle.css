@@ -37,7 +37,7 @@
   color: #555!important;
   font-weight: 400;
   font-size: 16px;
-  font-family: CenturyGothic, sans-serif;
+  font-family: "Century Gothic", sans-serif;
 }
 /*---Slider-----*/
 #slider
@@ -54,7 +54,7 @@
 {
   color: rgb(255, 255, 255);
   font-size: 42px;
-  font-family: Lucida Handwriting, cursive;
+  font-family: "Lucida Handwriting", cursive;
   font-weight: 300;
   font-variant: small-caps;
 }
