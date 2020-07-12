@@ -1,20 +1,39 @@
-img {
-    display: block;
-    margin: 0 auto;
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
-button {
-    display: block;
-    margin: 0 auto;
+.navbar-brand
+{
+  height:40 px;
+  padding-left: 30 px;
 }
-input {
-    display: block;
-    margin: 0 auto;
-    width: 80px;
-    font-size: 20px;
+.navbar-nav li
+{
+  padding: 0 10px;
 }
-div.top-bar {
-    padding-top: 20px;
+.navbar-nav li a
+{
+  float: right;
+  text-align: left;
 }
-div.center {
-    padding:10px
+#nav-bar ul li a:hover
+{
+  color: #216e21!important;
+}
+.navbar
+{
+  background: #fff;
+}
+.navbar-toggler
+{
+  border: none!important;
+}
+.nav-link
+{
+  color: #555!important;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Century Gothic", sans-serif;
 }
