@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home </a>
+              <a class="nav-link" href="index.html">Home </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">About</a>
@@ -67,6 +67,7 @@
 </div>
 
 <script>
+    var list = document.getElementById("below");
     // Global variables
     var myGamePanel;
     var myObstacles = [];
@@ -90,7 +91,7 @@
           this.canvas.width = 400;
           this.canvas.height = 300;
           this.context = this.canvas.getContext("2d");
-          document.body.appendChild(this.canvas, document.body.childNodes[0]);
+          document.getElementById(this.canvas, document.getElementById.childNodes[0]);
           this.interval = setInterval(updateGameArea, 20);
           window.addEventListener('keydown', function (e) {
               myGameArea.key = e.keyCode;
@@ -266,7 +267,7 @@
         myGamePanel.speedY = 0;
     }
 </script>
-    <p>To play use the arrow keys on the keybord to move around the <font color="#AE62AE">purple</font> panel.<br>Avoid <font color="orange">orange</font> squares and catch the <font color="green"> green</font> ones
+    <p id="below">To play use the arrow keys on the keybord to move around the <font color="#AE62AE">purple</font> panel.<br>Avoid <font color="orange">orange</font> squares and catch the <font color="green"> green</font> ones
     </p>
 <!--</div>-->
 </body>
