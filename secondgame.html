@@ -50,7 +50,7 @@
       </nav>
 </section>
 <!--<div onclick="startGame()">-->
-    <button> "Start Game" </button>
+    <button onclick="startGame()"> Start Game </button>
     <script type="text/javascript">
         startGame('somid');
      </script>
@@ -93,7 +93,7 @@
           this.canvas.width = 400;
           this.canvas.height = 300;
           this.context = this.canvas.getContext("2d");
-          document.getElementById(this.canvas, document.getElementById.childNodes[0]);
+          list.insertBefore(this.canvas, list.childNodes[0]);
           this.interval = setInterval(updateGameArea, 20);
           window.addEventListener('keydown', function (e) {
               myGameArea.key = e.keyCode;
