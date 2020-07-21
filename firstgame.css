@@ -46,7 +46,7 @@
 .container img
 {
   width: 100%;
-  height: auto;
+  height: 750 px;
 }
 .container .btn
 {
@@ -72,8 +72,8 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(-25%, -25%);
+  -ms-transform: translate(-25%, -25%);
 
 }
 .container .game-info 
@@ -81,6 +81,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(-13%, -13%);
+  -ms-transform: translate(-13%, -13%);
 }
