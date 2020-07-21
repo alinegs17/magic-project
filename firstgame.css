@@ -65,5 +65,22 @@
 }
 .containter .btn:hover
 {
-  background-color: black;
+  background-color: rgb(101, 131, 100);
+}
+.container .user-input
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+.container .game-info 
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
