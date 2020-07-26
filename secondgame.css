@@ -53,7 +53,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -255%);
+  transform: translate(-50%, -155%);
   -ms-transform: translate(-50%, 150%);
   background-color: rgb(54, 68, 59);
   color: white;
@@ -73,6 +73,6 @@
   top: 50%;
   left: 50%;
   text-align: center;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -20%);
+  -ms-transform: translate(-50%, -20%);
 }
