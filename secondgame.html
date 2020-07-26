@@ -84,7 +84,7 @@
         /* Create game area */
         myGameArea.start();
         /* Create the bar */
-        myGamePanel = new component(100, 20, "#AE62AE", 150, 250);
+        myGamePanel = new component(100, 20, "#62aead", 150, 250);
         myScoreBoard = new component("20px", "Consolas", "Black", 320, 40, "text");
     }
     
@@ -220,10 +220,10 @@
             var x = (Math.random() * (maxX - minX)) + minX;
             var y = 0;
             if (createCatch) {
-                myCatches.push(new component(30, 30, "#00FF00", x, y));
+                myCatches.push(new component(30, 30, "#FAFAFA", x, y));
             }
             else {
-                myObstacles.push(new component(30, 30, "#FFAA41", x, y));
+                myObstacles.push(new component(30, 30, "#d7ee90", x, y));
             }
             // Randomly change the value of createCatch
             if (Math.random() >= 0.5) {
