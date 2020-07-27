@@ -69,6 +69,9 @@
 }
 .container .user-input
 {
+  text-align: center; 
+  margin-top: 100px; 
+  display: block;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -78,6 +81,10 @@
 }
 .container .game-info 
 {
+  background-color: #216e21;
+  color: white; 
+  font-size: 34px;
+  margin-top: 175px;
   position: absolute;
   top: 50%;
   left: 50%;
