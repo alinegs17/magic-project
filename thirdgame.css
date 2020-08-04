@@ -2,10 +2,9 @@
 {
   display: inline-block;
   position: relative;
-  width: 99%;
+  width: 100%;
 }
 .container3 img
 {
-  width: 99%;
-  height: 500 px;
+  width: 75%;
 }
